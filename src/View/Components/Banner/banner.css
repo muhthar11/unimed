@@ -1,3 +1,9 @@
+:root {
+  --white-color: #fff;
+  --heading-font-size: 64px;
+  --paragraph-font-size: 16px;
+}
+
 .banner-container {
   height: 582px;
   background-image: url("../../Assets/Images/bannerLarge.png"); /* Update with the correct path */
@@ -6,20 +12,20 @@
   position: relative; /* Needed for absolute positioning of text */
 }
 
-.banner-text {
+.banner__text {
   position: absolute;
   top: 50%;
   left: 120px;
   transform: translateY(-50%);
   text-align: left;
-  color: white;
+  color: var(--white-color);
   padding: 20px;
 }
 
-.heading {
-  font-size: 64px;
+.banner__heading {
+  font-size: var(--heading-font-size);
 }
 
-.paragraph {
-    font-size: 16px;
+.banner__paragraph {
+  font-size: var(--paragraph-font-size);
 }
