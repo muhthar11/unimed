@@ -96,6 +96,7 @@
 }
 .inner-section2-content {
   display: flex;
+  gap: 200px;
 }
 .inner-section2-content-text {
   color: #a8bce1;

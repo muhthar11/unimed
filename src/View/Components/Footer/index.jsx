@@ -40,7 +40,7 @@ function Footer() {
           <div className="inner-section2">
             <h4 className="inner-section2-header">Quick Links</h4>
             <div className="inner-section2-content">
-              <ul>
+              <ul className="inner-section">
                 <li className="inner-section2-content-text">Partners</li>
                 <li className="inner-section2-content-text">Products</li>
                 <li className="inner-section2-content-text">About us</li>
