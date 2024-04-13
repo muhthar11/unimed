@@ -5,7 +5,7 @@ import shutterStock from "../../Assets/Images/shutterstock_1908560635.png";
 function DiscountsProducts() {
   return (
     <section className="discount-product-container">
-      <div className="mainHeader">
+      <header className="mainHeader">
         <div className="header">
           <h1 className="headerText">
             Exclusive <span className="highlight">Discounts</span> on <br />
@@ -15,7 +15,7 @@ function DiscountsProducts() {
         <div className="shutterStock">
           <img className="shutterStock-image" src={shutterStock} alt="Discounted Wellness Products" loading="lazy" />
         </div>
-      </div>
+      </header>
     </section>
   );
 }
