@@ -1,0 +1,114 @@
+.header-row {
+  box-shadow: 0px 8px 22px #00000029;
+}
+
+.logo {
+  width: 180px;
+  height: 37px;
+}
+.header-left-side {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.header-right-side {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.social-icon {
+  width: 40px;
+  height: 40px;
+  margin: 0 5px; /* Add spacing between icons */
+}
+
+.text-style{
+  text-align: left;
+  color: #00205B;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.contact-button {
+  background: #97d700;
+  border-radius: 20px;
+  color: white;
+  border: none;
+  font-size: 12px;
+  font-weight: 400;
+  letter-spacing: 0px;
+  text-transform: uppercase;
+  margin-top: 11px;
+}
+.searchBox{
+  width: 100%;
+  height: 100px;
+  display: flex;
+  background-color: #fff;
+  align-items: center;
+  justify-content: center;
+  padding: 0 30px;
+  transition: 0.5s ease-in-out;
+}
+ .searchBox input{
+   width: 70%;
+   border: none;
+   outline: none;
+   height: 50px;
+   font-size: 1.00em;
+   border-bottom: 2px solid rgba(0, 32, 91, 1);
+ }
+ .contact-button2 {
+  background: #00205B;
+  border-radius: 20px;
+  color: #97d700;
+  border: none;
+  font-size: 12px;
+  font-weight: 400;
+  letter-spacing: 0px;
+  text-transform: uppercase;
+  margin-top: 11px;
+}
+
+.close{
+  width: 10%;
+  height: 50px;
+  display:flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.closeIcon {
+}
+
+/* Responsive styles for smaller screens */
+@media (max-width: 768px) {
+  .navbar-brand,
+  .navbar-nav {
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .navbar-toggler {
+    margin-left: auto;
+  }
+
+  .header-row {
+    padding: 10px 0; /* Adjust padding */
+  }
+
+  .social-icon {
+    width: 30px; /* Smaller icons for mobile */
+    height: 30px;
+  }
+
+  .contact-button {
+    padding: 5px 10px; /* Adjust button size for mobile */
+    font-size: 10px;
+  }
+  .contact-button2 {
+    padding: 5px 10px; /* Adjust button size for mobile */
+    font-size: 10px;
+  }
+}

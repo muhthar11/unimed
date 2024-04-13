@@ -1,0 +1,75 @@
+.health-container {
+    height: 682px;  
+    width: 100%;
+    display: flex;
+}
+    
+  .health-container-section1 {      
+    width: 50%;
+    background-image: url("../../Assets/Images/healthBackground.png");
+    background-size: auto;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 30px;
+  }
+
+  .health-container-section2 {  
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+  }
+
+
+  .heading-text {  
+    font-size: 60px;
+    font-weight: 500;
+    color: #00205B;
+    text-align: left;
+  }
+  .heading-text span {  
+    padding-left: 10px;
+    color: #97D700;
+  }
+
+  .healthEssentials {
+    display: flex;
+    align-items: center;
+    border: 1px solid #E2E2E2;
+    border-radius: 16px;
+    opacity: 1;
+    margin: 10px;
+    padding: 20px;  
+  }
+ .section-title {
+  color: green;
+  text-align: center;
+}
+
+
+.card {/* Blue for General Healthcare Products */
+  color: white;
+  border-radius: 85%;
+  padding: 8%;
+}
+.cardBorderColor1{/* Blue for General Healthcare Products */
+  background-color: #97D700;
+}
+.cardBorderColor2{/* Blue for General Healthcare Products */
+  background-color: #00205B;
+}
+h6 {
+  color:#464646 ;
+}
+.dataSection  {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+.card-body {
+  width: 20px;
+  text-align: left;
+  margin-left: 20px;
+}

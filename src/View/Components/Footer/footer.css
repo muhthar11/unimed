@@ -1,0 +1,123 @@
+:root {
+  --main-bg-color: #00205b;
+  --highlight-color: #97d700;
+  --text-color: #fff;
+}
+.footer-container {
+  background-color: var(--main-bg-color);
+  height: 670px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.footer-header {
+  width: 85%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.active-Tab {
+  color: #97d700;
+  text-transform: uppercase;
+  font-weight: 14px;
+  font-weight: 500;
+}
+
+.tab {
+  color: white;
+  text-transform: uppercase;
+  font-weight: 14px;
+  font-weight: 500;
+  padding-left: 70px;
+}
+.inner-section1 {
+  width: 17%;
+}
+.footer-content {
+  width: 100%;
+  /* height: 426px; */
+  background-image: url("../../Assets/Images/Group\ 32814@2x.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  /* opacity: 0.05; */
+  /* background: #97D700; */
+}
+
+.footer-inner-content {
+  width: 85%;
+  margin-left: 125px;
+  height: 350px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.border-line {
+  width: 85%;
+  display: flex;
+  background-color: #a8bce1;
+  height: 3px;
+}
+
+.inner-section1-header {
+  color: #fff;
+  text-align: left;
+}
+.inner-section1-content {
+  color: #a8bce1;
+  text-align: left;
+}
+.icon {
+  width: 20px;
+  height: 17px;
+}
+.info-section {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.info-section1-content {
+  color: #a8bce1;
+  justify-content: center;
+  display: flex;
+  align-items: end;
+  width: 65%;
+  height: 35px;
+}
+.inner-section2 {
+  height: 250px;
+  margin-left: 200px;
+}
+.inner-section2-header {
+  color: #fff;
+  text-align: left;
+  padding-left: 30px;
+}
+.inner-section2-content {
+  display: flex;
+}
+.inner-section2-content-text {
+  color: #a8bce1;
+  justify-content: flex-start;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 35px;
+}
+.footer-section {
+  display: flex;
+  justify-content: space-between;
+}
+.footer-inner-section {
+  color: #ffffff;
+  font-size: 12;
+  text-align: left;
+}
+.footer-text {
+  color: #ffffff;
+  font-size: 12;
+  padding-right: 12px;
+  display: flex;
+  align-items: center;
+}
